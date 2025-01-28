@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+font-family: "Poppins", serif;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+        width: 100vw;
+        margin: 0; 
+        background-color: #FEFEFE;
+
+      }
+
+.header {
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 42px;
+    width: 80%;
+    display: flex;
+    height: 34px;
+    justify-content: space-between;
+}
+
+.header ul {
+
+    display: flex;
+    width: 50%;
+    height: 20px;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.header ul li {
+font-family: "Poppins", serif;;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.78px;
+letter-spacing: 0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+color: #000000;
+
+}
+.header img  {
+    width: 120px;
+height: 24px;
+}
+
+.firstContainer {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 68px;
+    height: auto;
+}
+#deco1 {
+    width: 398px;
+    height: 155px;
+    top: 500px;
+    left: 68px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    z-index: 1;
+}
+.left {
+    margin-left: 60px;
+    width: 50%;
+    height: 50%;
+    z-index: 3;
+}
+
+.left h1 {
+    margin-top: 123px;
+font-family: "Poppins", serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 49.44px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.left p {
+    width: 68%;
+    margin-top: 40px;
+    font-family: "Poppins", serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #565656;
+
+
+}
+
+.left button {
+    border: none;
+    margin-top: 53px;
+    width: Hug (215px)px;
+height: Hug (65px)px;
+top: 439px;
+left: 121px;
+padding: 20px 40px 20px 40px;
+gap: 10px;
+border-radius: 28px 28px 28px 28px;
+opacity: 0px;
+background: #2639ED;
+font-family: Averta Demo PE Cutted Demo;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.72px;
+letter-spacing: 0.065em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+
+}
+
+
+.right {
+width: 65%;
+}
+
+.right img {
+    position: absolute;
+    z-index: 4;
+
+}
+
+#deco3 {
+    position: absolute;
+    width: 178px;
+height: 178px;
+top: 546px;
+left: 1250px;
+gap: 0px;
+border-radius: 0px 0px 100px 0px;
+opacity: 0px;
+z-index: 2;
+
+}
+
+#deco2 {
+    position: absolute;
+    width: 129px;
+height: 129px;
+top: 116px;
+left: 700px;
+gap: 0px;
+opacity: 0px;
+z-index: 1;
+}
+
+
+.container2 {
+
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 196px;
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+
+
+.textpart h2 {
+    font-family: "Poppins", serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 49.44px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.textpart p {
+    width: 70%;
+    font-family: "Poppins", serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #757575;
+
+}
+
+
+
+
+
+.slder {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    width: 80%;                
+    margin-top: 200px;
+    overflow: hidden;          
+}
+
+
+.slder img {
+    width: 80%;               
+    height: 100;            
+    display: flex;
+    align-items: center;
+}
+
+#deco4 {
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    top: 1256px;
+    left: 94px;
+    gap: 0px;
+    z-index: 4;
+}
+
+#deco5 {
+    position: absolute;
+    width: 80%;
+height: 619px;
+top: 1122px;
+left: 393px;
+gap: 0px;
+border-radius: 150px 0px 0px 0px;
+z-index: 4;
+}
+
+#deco6 {
+    position: absolute;
+    width: 120px;
+height: 120px;
+top: 1693px;
+left: 1177px;
+gap: 0px;
+border: 8.8px 0px 0px 0px;
+
+z-index: 2;
+}
+
+#deco7 {
+    position: absolute;
+    width: 405px;
+height: 154px;
+top: 1626px;
+left: 125px;
+gap: 0px;
+z-index: 2;
+}
+
