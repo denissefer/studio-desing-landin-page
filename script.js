@@ -1,11 +1,19 @@
-$(document).ready(function(){
-    $('.slder').slick({
-        autoplay: true,        // Автоматско ротирање на сликите
-        autoplaySpeed: 500,   // Брзина на ротирање (во милисекунди)
-        arrows: true,          // Прикажи стрелки за навигација
-        dots: true,            // Прикажи точки за навигација
-        infinite: true,        // Бесконечно ротирање
-        slidesToShow: 5,       // Постави број на слики што ќе се прикажуваат одеднаш
-        slidesToScroll: 1      // Постави број на слики што ќе се променуваат по кликање
+document.addEventListener("DOMContentLoaded", function () {
+    AOS.init();
+
+    const swiper = new Swiper('.swiper-container', {
+        slidesPerView: 'auto',
+        centeredSlides: false,
+        spaceBetween: 5,
+        loop: true,
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
     });
 });
+

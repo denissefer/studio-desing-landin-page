@@ -271,3 +271,228 @@ gap: 0px;
 z-index: 2;
 }
 
+.cards {
+    top: -143px;
+    flex-wrap: wrap;
+    height: 901px;
+    margin-left: 465px;
+    display: flex;
+    width: 70%;
+    z-index: 7;
+    position: relative;
+}
+
+.card1 , .card2, .card3, .card4 {
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    width: 34%;
+    height: 379px;
+    top: 1061px;
+    left: 607px;
+    gap: 0px;
+    border-radius: 40px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 1px;
+    background-color: white;
+}
+.card1 {
+     margin-left: 81px;
+}
+
+.card2 {
+    margin-left: 61px;
+}
+
+.card3 {
+    margin-left: 140px
+}
+
+.card4 {
+    margin-left:62px;
+}
+
+.card3 .card4 {
+    margin-top: 20px;
+}
+
+.border {
+    margin-top: 29px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 121px;
+    height: 121px;
+    top: 1100px;
+    left: 701px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #F1F7FF;
+;
+}
+
+.card1 h3 , .card2 h3, .card3 h3, .card4 h3 {
+    font-family: "Poppins", serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 29.66px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+
+.card1 p , .card2 p, .card3 p, .card4 p {
+    width: 80%;
+    font-family: "Poppins", serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #757575;
+}
+
+#deco8 {
+    position: absolute;
+    width: 178px;
+    width: 129px;
+    height: 129px;
+    top: 2339px;
+    left: 615px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: 2;}
+
+
+#deco9 {
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    top: 2053px;
+    left: 750px;
+    gap: 0px;
+    border-radius: 0px 0px 100px 0px;
+    opacity: 0px;
+    z-index: 2;
+}
+
+.container4 {
+        left: 153px;
+    position: absolute;
+    z-index: 3;
+    height: 362px;
+    padding: 2px;
+    margin: 0 auto;
+    width: 86%;
+    display: flex;
+    /* border: 2px solid green; */
+}
+
+.text h2 {
+    font-family: "Poppins", serif;
+font-size: 40px;
+font-weight: 400;
+line-height: 49.44px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+}
+
+.text p {
+    font-family: "Poppins", serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #565656;
+
+}
+
+
+/* ✅ Намалување на Swiper каруселот */
+.swiper-container {
+    border: 2px solid pink;
+    width: 50%; /* Намали ја ширината на каруселот (пр. 50% од страницата) */
+    height: 100px; /* Висина на каруселот */
+    margin-left: 200px; /* Центрирање на средина */
+    padding: 10px 0;
+}
+
+/* ✅ Центрирање на сликите */
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ✅ Намалување на клиентските логоа */
+.swiper-slide img {
+    width: 50px; /* Намалување на логото */
+    height: auto;
+    display: block;
+    margin: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+/* ✅ Кога корисникот ќе помине со глувчето, стануваат полноцветни */
+.swiper-slide img:hover {
+    filter: grayscale(0%);
+}
+
+/* ✅ Намалување на просторот помеѓу сликите */
+.swiper-container .swiper-slide {
+    flex: 0 0 auto;
+    margin-right: 5px; /* Намали растојание меѓу логоата */
+}
+
+/* ✅ Дизајн на копчињата за навигација */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000; /* Црна боја */
+    font-size: 14px; /* Намали ја големината на копчињата */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: #007BFF; /* Плаво при hover */
+}
+
+/* ✅ Дизајн на пагинацијата (точките под каруселот) */
+.swiper-pagination {
+    bottom: 5px;
+}
+
+.swiper-pagination-bullet {
+    background: #ccc;
+    width: 6px; /* Помали точки */
+    height: 6px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #007BFF;
+}
+
+/* ✅ Ограничување на Swiper каруселот */
+.swiper-container {
+    width: 50%; /* Ограничување на каруселот на половина екрaан */
+    height: 100px;
+    margin: 20px auto; /* Центрирање на средина */
+    padding: 10px 0;
+    overflow: hidden; /* Спречување на излегување од контејнерот */
+}
+
+/* ✅ Ограничување на wrapper за да не оди до крај */
+.swiper-wrapper {
+    max-width: 20%; /* Ограничи ја максималната ширина */
+    display: flex;
+    justify
+}
+å
